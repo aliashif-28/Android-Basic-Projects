@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:padding="15dp"
+
+    android:background="@drawable/a">
+
+    <!-- Tic Tac Toe -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:background="#000000"
+        android:layout_marginTop="40dp"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/ticBtn"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tic_tock"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tic Tac Toe"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="6dp"/>
+    </LinearLayout>
+
+    <!-- Memory Game -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_bg"
+        android:layout_marginTop="40dp"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/memoryBtn"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/memory"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memory Game"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="6dp"/>
+    </LinearLayout>
+
+    <!-- Snake Game -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_bg"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/snakeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/snack"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snake Game"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="6dp"/>
+    </LinearLayout>
+
+    <!-- Quiz Game -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_bg"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/quizBtn"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ques"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz Game"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="6dp"/>
+    </LinearLayout>
+
+    <!-- Runner Game -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_bg"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/runnerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/run"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Runner Game"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="6dp"/>
+    </LinearLayout>
+
+</GridLayout>

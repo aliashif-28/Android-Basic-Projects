@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    android:padding="12dp">
+
+    <!-- Level -->
+    <TextView
+        android:id="@+id/levelText"
+        android:text="Level 1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Card board -->
+    <LinearLayout
+        android:background="@drawable/card_bg"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:columnCount="4"
+            android:rowCount="4">
+
+            <ImageView android:id="@+id/c1" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c2" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c3" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c4" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c5" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c6" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c7" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c8" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c9" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c10" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c11" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c12" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c13" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c14" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c15" style="@style/cardStyle"/>
+            <ImageView android:id="@+id/c16" style="@style/cardStyle"/>
+
+        </GridLayout>
+    </LinearLayout>
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/nextBtn"
+        android:text="NextLevel"
+        android:visibility="gone"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

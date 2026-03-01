@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:text="Tic Tac Toe"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#CE3202"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Score -->
+    <TextView
+        android:id="@+id/scoreText"
+        android:text="X: 0   O: 0"
+        android:textSize="18sp"
+        android:textColor="#5814C5"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Game Board Card -->
+    <LinearLayout
+        android:background="@drawable/card_bg"
+        android:padding="12dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:gravity="center">
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="3"
+            android:rowCount="3">
+
+            <Button android:id="@+id/b1" android:textColor="#FFFFFF" style="@style/gameCell"/>
+            <Button android:id="@+id/b2" android:textColor="#F8F7F6" style="@style/gameCell"/>
+            <Button android:id="@+id/b3" android:textColor="#FBFBFB" style="@style/gameCell"/>
+            <Button android:id="@+id/b4" android:textColor="#FFFFFF" style="@style/gameCell"/>
+            <Button android:id="@+id/b5" android:textColor="#FFFFFF" style="@style/gameCell"/>
+            <Button android:id="@+id/b6" android:textColor="#FFFFFF" style="@style/gameCell"/>
+            <Button android:id="@+id/b7" android:textColor="#FFFFFF" style="@style/gameCell"/>
+            <Button android:id="@+id/b8" android:textColor="#FFFFFF" style="@style/gameCell"/>
+            <Button android:id="@+id/b9" android:textColor="#FFFFFF" style="@style/gameCell"/>
+
+        </GridLayout>
+    </LinearLayout>
+
+    <!-- Reset Button -->
+    <Button
+        android:id="@+id/resetBtn"
+        android:text="Reset Game"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6200EE"
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

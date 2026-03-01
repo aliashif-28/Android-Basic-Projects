@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a">
+
+    <!-- Timer -->
+    <TextView
+        android:id="@+id/timerText"
+        android:text="Time: 15"
+        android:textSize="20sp"
+        android:textColor="#FFEB3B"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- ⭐ Score add karo -->
+    <TextView
+        android:id="@+id/scoreText"
+        android:text="Right: 0  Wrong: 0"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Question -->
+    <TextView
+        android:id="@+id/questionText"
+        android:text="Question"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Options -->
+    <Button android:id="@+id/op1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/op2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/op3" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/op4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <!-- Next button -->
+
+</LinearLayout>
